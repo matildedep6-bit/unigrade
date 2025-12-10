@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import { calculateCombinations } from '@/lib/api'
-import GradeForm from '@/components/GradeForm'
-import ResultsDisplay from '@/components/ResultsDisplay'
+import { calculateCombinations } from '../lib/api'
+import GradeForm from '../components/GradeForm'
+import ResultsDisplay from '../components/ResultsDisplay'
 
 export default function Home() {
   const [combinations, setCombinations] = useState<any[]>([])

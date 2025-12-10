@@ -3,14 +3,8 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "nodeVersion": "18.x",
   "outputDirectory": "frontend/.next",
   "regions": ["iad1"],
-  "functions": {
-    "backend/**": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "env": {
     "NEXT_PUBLIC_SUPABASE_URL": {
       "description": "Supabase project URL"

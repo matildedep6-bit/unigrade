@@ -3,7 +3,7 @@
  * Handles all grade combination calculations
  */
 
-import { GradeCombination } from '../types'
+import { GradeCombination } from './types'
 
 class GradeCalculatorService {
   private readonly MIN_GRADE = 18

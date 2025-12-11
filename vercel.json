@@ -1,8 +1,9 @@
 {
   "name": "unigrade",
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
+  "buildCommand": "npm run build --workspace=frontend",
+  "devCommand": "npm run dev --workspace=frontend",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "outputDirectory": "frontend/.next"
+  "outputDirectory": ".next",
+  "rootDirectory": "frontend"
 }

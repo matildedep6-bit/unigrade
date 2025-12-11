@@ -1,4 +1,6 @@
-# API Response Types
+/**
+ * API Response Types
+ */
 
 export interface CalculationResult {
   success: boolean
